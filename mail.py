@@ -5,9 +5,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 subject = "An email with attachment from Python"
 body = "This is an email with attachment sent from Python"
-sender_email = "testmailforpythonproject@gmail.com"
-receiver_email = "dollardazzledd@gmail.com"
-password = input("Type your password and press enter:")
+sender_email = "yourmailId@xmail.com" //Replace it  your mail id 
+receiver_email = str(input("Enter Receiver Email : "))
+password = input("Type your password and press enter : ")
 message = MIMEMultipart()
 message["From"] = sender_email
 message["To"] = receiver_email
